@@ -54,8 +54,3 @@ coverage/
 *.spec.ts
 *.spec.tsx
 
-
-# Temporary files
-*.bak
-*.swp
-*.swo
