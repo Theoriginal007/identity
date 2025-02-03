@@ -178,13 +178,12 @@ const Home = () => {
               ></path>
             </svg>
             <p className="text-xl text-white italic">
-              "Working with Identity Express has been an incredible experience. Their creativity and attention to detail exceeded our expectations."
+              "Working with Identity Express was a game-changer for our business. Their attention to detail and commitment to quality was unparalleled."
             </p>
-            <p className="text-lg text-white mt-4">Jane Smith, Marketing Manager</p>
+            <p className="text-lg text-white mt-4">Jane Smith, Founder of ABC Ltd</p>
           </div>
         </div>
       </section>
-
     </section>
   );
 };
