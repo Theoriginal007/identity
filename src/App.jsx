@@ -6,13 +6,13 @@ import Contact from "./components/Contact";
 import Home from './components/Home';
 import Navbar from './components/Navbar';  
 import Footer from './components/Footer';  
-import './styles/index.css';  
+
 
 const App = () => {
   return (
     <div className="flex flex-col min-h-screen">
       {/* Navbar */}
-      <Navbar /> 
+      <Navbar />
 
       {/* Page Content */}
       <div className="flex-grow">
