@@ -1,5 +1,9 @@
+// tailwind.config.js
 module.exports = {
-  content: ["./index.html", "./src/**/*.{js,jsx,ts,tsx}"],
+  content: [
+    "./index.html", // Include paths to your HTML files
+    "./src/**/*.{js,ts,jsx,tsx}", // Include paths to your JS/TS files
+  ],
   theme: {
     extend: {},
   },

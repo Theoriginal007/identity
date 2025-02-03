@@ -1,11 +1,11 @@
 import React from "react";
-import { Route, Routes } from "react-router-dom";
+import { Routes, Route } from "react-router-dom"; 
 import Services from "./components/Services";
 import Projects from "./components/Projects";
 import Contact from "./components/Contact";
 import Home from './components/Home';
-import Navbar from './components/Navbar'; 
-import Footer from './components/Footer'; 
+import Navbar from './components/Navbar';  
+import Footer from './components/Footer';  
 import './styles/index.css';  
 
 const App = () => {
@@ -17,6 +17,7 @@ const App = () => {
       {/* Page Content */}
       <div className="flex-grow">
         <Routes>
+          {/* Define your routes here */}
           <Route path="/" element={<Home />} />
           <Route path="/services" element={<Services />} />
           <Route path="/projects" element={<Projects />} />

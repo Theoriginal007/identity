@@ -3,9 +3,7 @@ import react from '@vitejs/plugin-react';
 
 export default defineConfig({
   plugins: [react()],
-  build: {
-    rollupOptions: {
-      external: ['react-router-dom'], 
-    },
+  css: {
+    postcss: './postcss.config.js', // Make sure Vite uses the correct PostCSS config
   },
 });
