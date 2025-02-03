@@ -30,38 +30,41 @@ const Home = () => (
       </div>
     </div>
 
-    {/* About Section */}
-    <section className="bg-[#F8F9FA] text-[#3C3E50] py-16">
-      <div className="max-w-6xl mx-auto text-center">
-        <div className="flex gap-8 justify-between flex-wrap">
-          {/* Who We Are Card */}
-          <div className="bg-white shadow-lg rounded-lg p-6 flex-1 min-w-[280px] border-l-4 border-[#002D72]">
-            <h2 className="text-3xl font-bold mb-6 text-[#002D72]">Who We Are</h2>
-            <p className="text-lg text-[#555]">
-              At <strong>Identity Express Ltd</strong>, we are a creative media agency dedicated to transforming brands. We specialize in blending innovative design, high-quality prints, and impactful media solutions. Our focus is on creativity and precision, working closely with clients to bring their visions to life.
-            </p>
-          </div>
-
-          {/* Our Mission Card */}
-          <div className="bg-white shadow-lg rounded-lg p-6 flex-1 min-w-[280px] border-l-4 border-[#FF5722]">
-            <h3 className="text-3xl font-semibold mb-4 text-[#FF5722]">Our Mission</h3>
-            <p className="text-lg text-[#555]">
-              Our mission is simple: <strong>To help businesses grow</strong> by delivering cutting-edge media solutions that elevate brands and connect with their target audience. Whether through digital content, print media, or branding strategies, we ensure every project reflects our clients' unique identity.
-            </p>
-          </div>
-
-          {/* Why Choose Us Card */}
-          <div className="bg-white shadow-lg rounded-lg p-6 flex-1 min-w-[280px] border-l-4 border-[#4CAF50]">
-            <h3 className="text-3xl font-semibold mb-4 text-[#4CAF50]">Why Choose Us?</h3>
-            <ul className="list-none text-lg text-[#555] space-y-4">
-              <li><strong>Innovation:</strong> We stay ahead of trends, using the latest technologies and creative approaches.</li>
-              <li><strong>Quality:</strong> Every project we deliver meets the highest standard and exceeds expectations.</li>
-              <li><strong>Collaboration:</strong> We involve our clients in the creative process at every stage.</li>
-            </ul>
-          </div>
-        </div>
+ {/* About Section */}
+<section className="bg-[#F8F9FA] text-[#3C3E50] py-16">
+  <div className="max-w-6xl mx-auto text-center px-4">
+    <div className="flex flex-row gap-6 overflow-x-auto md:overflow-visible">
+      
+      {/* Who We Are Card */}
+      <div className="bg-white shadow-lg rounded-lg p-6 border-l-4 border-[#002D72] min-w-[300px]">
+        <h2 className="text-2xl font-bold mb-4 text-[#002D72]">Who We Are</h2>
+        <p className="text-lg text-[#555]">
+          At <strong>Identity Express Ltd</strong>, we are a creative media agency dedicated to transforming brands. We specialize in blending innovative design, high-quality prints, and impactful media solutions. 
+        </p>
       </div>
-    </section>
+
+      {/* Our Mission Card */}
+      <div className="bg-white shadow-lg rounded-lg p-6 border-l-4 border-[#FF5722] min-w-[300px]">
+        <h3 className="text-2xl font-semibold mb-4 text-[#FF5722]">Our Mission</h3>
+        <p className="text-lg text-[#555]">
+          Our mission is simple: <strong>To help businesses grow</strong> by delivering cutting-edge media solutions that elevate brands and connect with their target audience.
+        </p>
+      </div>
+
+      {/* Why Choose Us Card */}
+      <div className="bg-white shadow-lg rounded-lg p-6 border-l-4 border-[#4CAF50] min-w-[300px]">
+        <h3 className="text-2xl font-semibold mb-4 text-[#4CAF50]">Why Choose Us?</h3>
+        <ul className="list-none text-lg text-[#555] space-y-4">
+          <li><strong>Innovation:</strong> We stay ahead of trends, using the latest technologies.</li>
+          <li><strong>Quality:</strong> Every project meets the highest standards.</li>
+          <li><strong>Collaboration:</strong> We involve our clients in the creative process.</li>
+        </ul>
+      </div>
+
+    </div>
+  </div>
+</section>
+
 
     {/* Client Stats & Achievements */}
     <div className="bg-[#F8F9FA] py-16 text-center">

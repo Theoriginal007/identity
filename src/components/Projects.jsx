@@ -10,7 +10,6 @@ import project6 from "../assets/projects_6.jpg";
 import project7 from "../assets/projects_7.jpg";
 import project8 from "../assets/projects_8.jpg";
 import project9 from "../assets/projects_9.jpg";
-import project10 from "../assets/projects_10.jpg";
 import project11 from "../assets/projects_11.jpg";
 import project12 from "../assets/projects_12.jpg";
 import project13 from "../assets/projects_13.jpg";
@@ -29,7 +28,6 @@ const Project = () => {
     { image: project7 },
     { image: project8 },
     { image: project9 },
-    { image: project10 },
     { image: project11 },
     { image: project12 },
     { image: project13 },
