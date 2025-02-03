@@ -54,8 +54,6 @@ coverage/
 *.spec.ts
 *.spec.tsx
 
-# Tye and other misc files
-.tye/
 
 # Temporary files
 *.bak
