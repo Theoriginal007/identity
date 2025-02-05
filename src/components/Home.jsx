@@ -1,17 +1,18 @@
 import React from "react";
 import { FaCheck, FaLightbulb, FaSmile } from "react-icons/fa"; 
 import { Link } from "react-router-dom";
-import creative1 from "../assets/creative1.png";
-import photography2 from "../assets/photography2.png";
-import photography1 from "../assets/photography1.png";
-import print from "../assets/print.png";
+import project5 from "../assets/projects_5.jpg";
+import project9 from "../assets/projects_9.jpg";
+import project14 from "../assets/projects_14.jpg";
+import project18 from "../assets/projects_18.jpg";
+
 
 const Home = () => (
   <section className="bg-white text-[#3C3E50]">
     {/* Hero Section */}
     <div
       className="relative bg-cover bg-center h-[420px] md:h-[620px] flex items-center justify-center"
-      style={{ backgroundImage: `url(${photography1})` }}
+      style={{ backgroundImage: `url(${ project18})` }}
     >
       <div className="absolute inset-0 bg-black opacity-50"></div>
       <div className="relative text-center px-4">
@@ -92,22 +93,23 @@ const Home = () => (
 
     {/* Our Services */}
     <div className="bg-white py-12 md:py-16 px-4 md:px-6">
-      <h3 className="text-3xl md:text-4xl font-semibold text-center mb-8 md:mb-10">Our Expertise</h3>
-      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8">
-        <div className="text-center">
-          <img src={creative1} alt="Creative Design" className="w-full h-auto"/>
-          <p className="mt-4 text-xl font-semibold">Creative Design</p>
-        </div>
-        <div className="text-center">
-          <img src={photography2} alt="Photography" className="w-full h-auto"/>
-          <p className="mt-4 text-xl font-semibold">Photography Services</p>
-        </div>
-        <div className="text-center">
-          <img src={print} alt="Print Services" className="w-full h-auto"/>
-          <p className="mt-4 text-xl font-semibold">Print Services</p>
-        </div>
-      </div>
+  <h3 className="text-3xl md:text-4xl font-semibold text-center mb-8 md:mb-10">Our Expertise</h3>
+  <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8">
+    <div className="text-center">
+      <img src={project5} alt="Creative Design" className="w-full h-72 sm:h-80 md:h-96 object-cover rounded-lg"/>
+      <p className="mt-4 text-xl font-semibold">Creative Design</p>
     </div>
+    <div className="text-center">
+      <img src={project9} alt="Photography" className="w-full h-72 sm:h-80 md:h-96 object-cover rounded-lg"/>
+      <p className="mt-4 text-xl font-semibold">Photography Services</p>
+    </div>
+    <div className="text-center">
+      <img src={project14} alt="Print Services" className="w-full h-72 sm:h-80 md:h-96 object-cover rounded-lg"/>
+      <p className="mt-4 text-xl font-semibold">Print Services</p>
+    </div>
+  </div>
+</div>
+
 
     {/* Testimonials */}
     <section className="bg-white py-12 md:py-16 px-4 md:px-6 text-center">
