@@ -1,38 +1,38 @@
 import React from "react";
-import cardPrintingImage from "../assets/cardprinting.png";
-import designWorkImage from "../assets/designwork.png";
-import corporatePhotographyImage from "../assets/corporatephotography.png";
-import headshotsImage from "../assets/headshots.png";
-import printBrandingImage from "../assets/printbranding.png";
+import project8 from "../assets/projects_8.jpg";
+import project6 from "../assets/projects_6.jpg";
+import project7 from "../assets/projects_7.jpg";
+import project2 from "../assets/projects_2.jpg";
+import project14 from "../assets/projects_14.jpg";
 
 const services = [
   {
     title: "Card Printing",
-    image: cardPrintingImage,
+    image: project8,
     description:
       "We offer high-quality card printing services, whether it's business cards, membership cards, or personalized designs. Get professional results that leave a lasting impression."
   },
   {
     title: "Design Work",
-    image: designWorkImage,
+    image:  project6,
     description:
       "Our expert designers craft stunning visuals aligned with your brand. From logos to full branding suites, we bring your vision to life with creativity and precision."
   },
   {
     title: "Corporate Photography",
-    image: corporatePhotographyImage,
+    image:  project7,
     description:
       "Capture the essence of your business with professional photography. Whether it's conferences, seminars, or team portraits, we provide high-quality imagery that tells your brand's story."
   },
   {
     title: "Company Profile Headshots",
-    image: headshotsImage,
+    image:  project2,
     description:
       "Polished and professional headshots for your team. Ideal for websites, social media, and marketing materials to enhance your company's credibility and image."
   },
   {
     title: "Print Branding",
-    image: printBrandingImage,
+    image:  project14,
     description:
       "From brochures to banners, we deliver print branding solutions that ensure your business stands out. High-quality materials tailored to your marketing needs."
   }
